@@ -1,7 +1,22 @@
-docker-compose build && docker-compose up -d 
+sudo rm -rf mysql;   
 sudo rm -rf mysql;   
 
+docker-compose build && docker-compose up -d 
+
 docker-compose exec php php /var/www/html/artisan migrate 
+
+http://localhost:8080
+
+homestead - secret
+
+http://localhost:8088/
+
+
+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
+
+
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+
 
 
 REPOSITORY                                      TAG              IMAGE ID       CREATED         SIZE
