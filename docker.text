@@ -1,5 +1,4 @@
 sudo rm -rf mysql;   
-sudo rm -rf mysql;   
 
 docker-compose build && docker-compose up -d 
 
@@ -12,54 +11,3 @@ homestead - secret
 http://localhost:8088/
 
 
-REPOSITORY                                      TAG              IMAGE ID       CREATED         SIZE
-php                                             7.4-fpm-alpine   0f7cb85ed8af   4 weeks ago     82.5MB
-nginx                                           stable-alpine    373f8d4d4c60   2 months ago    23.2MB
-laravel-app_php                                 latest           a63e75145178   13 months ago   74.2MB
-php                                             7.2-fpm-alpine   a63e75145178   13 months ago   74.2MB
-phpmyadmin                                      latest           8260c3581120   13 months ago   469MB
-mysql                                           8.0              dd7265748b5d   14 months ago   545MB
-docker.elastic.co/logstash/logstash             7.10.0           bc71baf6997e   14 months ago   843MB
-docker-elk_logstash                             latest           bc71baf6997e   14 months ago   843MB
-docker.elastic.co/kibana/kibana                 7.10.0           da7fcd592595   14 months ago   1GB
-docker-elk_kibana                               latest           da7fcd592595   14 months ago   1GB
-docker.elastic.co/elasticsearch/elasticsearch   7.10.0           37190fe5beea   14 months ago   774MB
-docker-elk_elasticsearch                        latest           37190fe5beea   14 months ago   774MB
-docker-nodejs-helloworld                        latest           d0c20e30a02a   17 months ago   660MB
-docker-php-helloworld                           latest           16d250970d09   17 months ago   368MB
-hello-world                                     latest           fb235151bf73   17 months ago   414MB
-<none>                                          <none>           60ec2e7c920e   17 months ago   414MB
-php                                             7.4-apache       1b97367f8c10   17 months ago   414MB
-phpmyadmin/phpmyadmin                           latest           9d4ec4bbd5e5   17 months ago   469MB
-mariadb                                         latest           8075b7694a2d   18 months ago   407MB
-redis                                           latest           50541622f4f1   18 months ago   104MB
-udovicic/echo                                   apache-php7.2    9c7ed7208a7c   20 months ago   615MB
-composer                                        latest           b7fba84aad57   21 months ago   179MB
-core_core_db                                    latest           c4904f8d6dd4   2 years ago     437MB
-core_core_web                                   latest           04ca56c721cd   2 years ago     591MB
-webdevops/php-nginx                             debian-8         42d67fdf476c   2 years ago     578MB
-symfony4apijwt_php-fpm                          latest           eb5ffdcef35d   2 years ago     276MB
-laravel-docker                                  latest           ff2c80ea8739   2 years ago     434MB
-phpdockerio/php72-fpm                           latest           c65e5c6b27ce   2 years ago     151MB
-php                                             7.2-apache       6cebcea4f2e4   2 years ago     410MB
-mysql                                           5.7              1e4405fe1ea9   2 years ago     437MB
-mysql                                           latest           d435eee2caa5   2 years ago     456MB
-nginx                                           latest           231d40e811cd   2 years ago     126MB
-httpd                                           latest           d4a061d58465   2 years ago     165MB
-redis                                           4.0-alpine       b77690502ebe   2 years ago     20.4MB
-rafaelcgstz/magento2                            latest           f0887f3dcaee   2 years ago     1.05GB
-alexcheng/magento2                              latest           734a47c86379   2 years ago     1.79GB
-php                                             7.0-apache       aa67a9c9814f   3 years ago     368MB
-mailhog/mailhog                                 latest           e00a21e210f9   3 years ago     19.2MB
-mysql                                           5.7.22           6bb891430fb6   3 years ago     372MB
-meanbee/magento-mysql                           latest           6a29992299e5   3 years ago     372MB
-node                                            0.10-onbuild     75089ac1f7aa   5 years ago     631MB
-mysql                                           5.6.23           0bd9ef0792fa   6 years ago     283MB
-memcached                                       1.4.21           622897abf0a4   7 years ago     130MB
-
-
-18.06.3~ce~3-0~ubuntu
-5:20.10.12~3-0~ubuntu-bionic 
-5:20.10.12~3-0~ubuntu-bionic
-
- sudo apt-get install docker-ce=5:20.10.12~3-0~ubuntu-bionic  docker-ce-cli=5:20.10.12~3-0~ubuntu-bionic containerd.io
